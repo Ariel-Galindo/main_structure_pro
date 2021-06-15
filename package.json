@@ -1,0 +1,29 @@
+{
+  "name": "main_structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {},
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ariel-Galindo/main_structure_pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ariel-Galindo/main_structure_pro/issues"
+  },
+  "homepage": "https://github.com/Ariel-Galindo/main_structure_pro#readme"
+}
