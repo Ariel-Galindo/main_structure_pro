@@ -1,16 +1,4 @@
-import "../styles/index.scss";
+import { render } from "react-dom";
+import App from "../components/App";
 
-const elvenShieldRecipe = {
-    leatherStrips: 2,
-    ironIngot: 1,
-    refinedMoonstone: 4,
-};
-
-const elvenGauntletsRecipe = {
-    ...elvenShieldRecipe,
-    ironIngot: 1,
-    refinedMoonstone: 4,
-};
-
-console.log(elvenShieldRecipe);
-console.log(elvenGauntletsRecipe);
+render(<h1><App /></h1>, document.getElementById("root"));
